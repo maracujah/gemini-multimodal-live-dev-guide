@@ -73,7 +73,7 @@ Project Pastra retains and enhances all features from chapters 6 and 7:
 
 2. **Cloud Run Deployment**:
    ```bash
-   gcloud builds submit --tag gcr.io/PROJECT_ID/project-pastra-dev-api
+   gcloud builds submit --tag gcr.io/$PROJECT_ID/project-pastra-dev-api
    gcloud run deploy project-pastra-dev-api \
      --image gcr.io/$PROJECT_ID/project-pastra-dev-api \
      --platform managed \
